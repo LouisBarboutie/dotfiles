@@ -2,7 +2,7 @@ vim.lsp.enable {
   'lua_ls',
   'pyright',
   'clangd',
-  'arduino_language_server',
+  'arduino_ls',
 }
 
 vim.diagnostic.config {

@@ -8,3 +8,5 @@ vim.keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to the lower win
 vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
 
 vim.keymap.set('n', '<C-t>', '<cmd>Neotree toggle<CR>')
+
+vim.keymap.set('n', 'grd', vim.lsp.buf.definition, { desc = 'Go to definition' })
